@@ -457,6 +457,16 @@ st.markdown("""
         .success-box a:hover, .critical-box a:hover {
             color: #93c5fd;
         }
+        
+        /* ---- Tabs (unselected) ---- */
+        .stTabs [data-baseweb="tab"] {
+            background-color: #1e293b;
+            color: #cbd5e1;
+        }
+        .stTabs [aria-selected="true"] {
+            background-color: #e74c3c;
+            color: white;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
