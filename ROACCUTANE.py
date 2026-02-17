@@ -1220,32 +1220,26 @@ with tabs[7]:
     st.markdown("""
     <div class="info-box">
     <h4>What Makes Isotretinoin Unique Among Acne Therapies:</h4>
-    <table style="width:100%; border-collapse: collapse;">
-        <tr style="background-color: #e0e7ff;">
-            <th style="padding: 8px; text-align: left;">Advantage</th>
-            <th style="padding: 8px; text-align: left;">Detail</th>
-        </tr>
-        <tr>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">🎯 Only drug targeting ALL 4 acne pathways</td>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">Sebum + Keratinization + Inflammation + P. acnes</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">🏆 Curative potential (~70%)</td>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">All other therapies are suppressive only</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">📅 Time-limited course (15–20 weeks)</td>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">vs. indefinite daily therapy for alternatives</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">💊 Shorter pregnancy washout (1 month)</td>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">vs. Acitretin which requires 3 YEARS</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">🔬 No antibiotic resistance risk</td>
-            <td style="padding: 8px; border-bottom: 1px solid #ddd;">Unlike doxycycline/minocycline</td>
-        </tr>
-    </table>
+    </div>
+    <div class="card-item" style="border-left: 4px solid #3b82f6;">
+        <h4>🎯 Only drug targeting ALL 4 acne pathways</h4>
+        <p class="card-detail">Sebum + Keratinization + Inflammation + P. acnes</p>
+    </div>
+    <div class="card-item" style="border-left: 4px solid #22c55e;">
+        <h4>🏆 Curative potential (~70%)</h4>
+        <p class="card-detail">All other therapies are suppressive only</p>
+    </div>
+    <div class="card-item" style="border-left: 4px solid #8b5cf6;">
+        <h4>📅 Time-limited course (15–20 weeks)</h4>
+        <p class="card-detail">vs. indefinite daily therapy for alternatives</p>
+    </div>
+    <div class="card-item" style="border-left: 4px solid #f59e0b;">
+        <h4>💊 Shorter pregnancy washout (1 month)</h4>
+        <p class="card-detail">vs. Acitretin which requires 3 YEARS</p>
+    </div>
+    <div class="card-item" style="border-left: 4px solid #06b6d4;">
+        <h4>🔬 No antibiotic resistance risk</h4>
+        <p class="card-detail">Unlike doxycycline/minocycline</p>
     </div>
     """, unsafe_allow_html=True)
 
