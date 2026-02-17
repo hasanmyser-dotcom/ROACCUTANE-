@@ -320,6 +320,144 @@ st.markdown("""
             font-size: 0.85rem;
         }
     }
+    
+    /* ============================== DARK MODE ============================== */
+    @media (prefers-color-scheme: dark) {
+        /* ---- Header ---- */
+        .main-header {
+            background: linear-gradient(135deg, #f87171 0%, #ef4444 50%, #d8b4fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sub-header {
+            color: #94a3b8;
+        }
+        
+        /* ---- Info Box (blue) ---- */
+        .info-box {
+            background-color: #172033;
+            border-left-color: #60a5fa;
+            color: #e2e8f0;
+        }
+        .info-box h3, .info-box h4, .info-box h5 {
+            color: #93c5fd !important;
+        }
+        .info-box p, .info-box li, .info-box em {
+            color: #cbd5e1;
+        }
+        .info-box strong {
+            color: #f1f5f9;
+        }
+        .info-box a {
+            color: #60a5fa;
+        }
+        
+        /* ---- Warning Box (red/orange) ---- */
+        .warning-box {
+            background-color: #2a1a1a;
+            border-left-color: #f87171;
+            color: #e2e8f0;
+        }
+        .warning-box h3, .warning-box h4, .warning-box h5 {
+            color: #fca5a5 !important;
+        }
+        .warning-box p, .warning-box li, .warning-box em {
+            color: #cbd5e1;
+        }
+        .warning-box strong {
+            color: #f1f5f9;
+        }
+        
+        /* ---- Success Box (green) ---- */
+        .success-box {
+            background-color: #172318;
+            border-left-color: #4ade80;
+            color: #e2e8f0;
+        }
+        .success-box h3, .success-box h4, .success-box h5 {
+            color: #86efac !important;
+        }
+        .success-box p, .success-box li, .success-box em {
+            color: #cbd5e1;
+        }
+        .success-box strong {
+            color: #f1f5f9;
+        }
+        
+        /* ---- Critical Box (dark red) ---- */
+        .critical-box {
+            background-color: #2d1318;
+            border-color: #ef4444;
+            border-left-color: #ef4444;
+            color: #e2e8f0;
+        }
+        .critical-box h2, .critical-box h3, .critical-box h4, .critical-box h5 {
+            color: #fca5a5 !important;
+        }
+        .critical-box p, .critical-box li, .critical-box em {
+            color: #cbd5e1;
+        }
+        .critical-box strong {
+            color: #f1f5f9;
+        }
+        .critical-box span {
+            color: #fca5a5 !important;
+        }
+        
+        /* ---- Cards ---- */
+        .card-item {
+            background: #1e293b;
+            border-color: #334155;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+        }
+        .card-item:hover {
+            box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+        }
+        .card-item h4 {
+            color: #93c5fd;
+        }
+        .card-item .card-detail {
+            color: #cbd5e1;
+        }
+        .card-item .card-detail strong {
+            color: #e2e8f0;
+        }
+        
+        /* ---- Badges ---- */
+        .card-badge-red { background: #450a0a; color: #fca5a5; }
+        .card-badge-green { background: #052e16; color: #86efac; }
+        .card-badge-blue { background: #1e3a5f; color: #93c5fd; }
+        .card-badge-yellow { background: #422006; color: #fde047; }
+        .card-badge-purple { background: #2e1065; color: #c4b5fd; }
+        
+        /* ---- Metric Card ---- */
+        .metric-card {
+            background: #1e293b;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            color: #e2e8f0;
+        }
+        
+        /* ---- References ---- */
+        .reference-item {
+            background-color: #1e293b;
+            border-left-color: #60a5fa;
+        }
+        .reference-item strong {
+            color: #93c5fd;
+        }
+        .reference-item a {
+            color: #60a5fa;
+        }
+        .reference-item a:hover {
+            color: #93c5fd;
+        }
+        
+        /* ---- Links inside boxes ---- */
+        .info-box a:hover, .warning-box a:hover,
+        .success-box a:hover, .critical-box a:hover {
+            color: #93c5fd;
+        }
+    }
 </style>
 """, unsafe_allow_html=True)
 
